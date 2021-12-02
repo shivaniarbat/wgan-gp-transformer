@@ -8,7 +8,7 @@ However, developing a model that accurately predicts cloud workload changes is e
 Long-Short-Term-Memory (LSTM) models have been developed for cloud workload prediction. 
 Unfortunately, the state-of-the-art LSTM model leverages recurrences to predict, which naturally adds complexity and increases the inference overhead as input sequences grow longer. 
 To develop a cloud workload prediction model with high accuracy and low inference overhead, 
-this work presents a novel time-series forecasting model called WGAN-gp Transformer, inspired by the Transformer network and improved Wasserstein-GANs. The proposed method adopts a Transformer network as a {\em generator} and a multi-layer perceptron as a {\em critic}. The extensive evaluations with real-world workload traces show WGAN-gp Transformer achieves 5 times faster inference time with up to 5.1% higher prediction accuracy against the state-of-the-art.
+this work presents a novel time-series forecasting model called WGAN-gp Transformer, inspired by the Transformer network and improved Wasserstein-GANs. The proposed method adopts a Transformer network as a *generator* and a multi-layer perceptron as a *critic*. The extensive evaluations with real-world workload traces show WGAN-gp Transformer achieves 5 times faster inference time with up to 5.1% higher prediction accuracy against the state-of-the-art.
 We also apply WGAN-gp Transformer to auto-scaling mechanisms on Google cloud platforms, and the WGAN-gp Transformer-based auto-scaling mechanism outperforms the LSTM-based mechanism by significantly reducing VM over-provisioning and under-provisioning rates.
 
 ---
