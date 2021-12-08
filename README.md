@@ -15,4 +15,4 @@ We also apply WGAN-gp Transformer to auto-scaling mechanisms on Google cloud pla
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-Official Implementation of our WGAN-gp Transformer paper for both training and evaluation. WGAN-gp Transformer introduces a novel approach for effectively predicting job arrival rates in dynamic cloud workloads.
+Official Implementation of our WGAN-gp Transformer paper for both training and evaluation. This paper is accepted in IAAI'22 to be presented at AAAI-22. WGAN-gp Transformer introduces a novel approach for effectively predicting job arrival rates in dynamic cloud workloads.
